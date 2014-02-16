@@ -1,46 +1,32 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: homepage
+tagline:
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+#### pixelated face
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+![pixelated face](/images/pixelated_face.jpg)
 
-## Update Author Attributes
+#### url
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+```
+>>> name = "David Andrew Matthews"
+>>> print((name[0] + str(len(name[1:-2])) + name[-1] + ".com").lower())
+d18s.com
+```
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+#### web presences
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+* [linkedin](http://www.linkedin.com/pub/david-matthews/38/358/493)
+* [google scholar](http://scholar.google.co.uk/citations?user=hiyvOBwAAAAJ)
+* [stackoverflow](http://stackoverflow.com/users/2595080/d18s)
+* [github](https://github.com/d18s)
+* [strava](http://www.strava.com/athletes/3686772)
+* [powerof10](http://www.thepowerof10.info/athletes/profile.aspx?athleteid=599226)
+* [amazon wishlist](http://www.amazon.co.uk/registry/wishlist/30VPO7OW13P5K)
 
-    $ rm -rf _posts/core-samples
+#### homepage howto
 
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+terse [instructions](/howto.html) on how I wrote this webpage
