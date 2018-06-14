@@ -30,3 +30,9 @@ d18s.com
 #### homepage howto
 
 terse [instructions](/howto.html) on how I wrote this webpage
+
+#### machine learning engineering
+
+[awesome machine learning engineering](https://github.com/d18s/awesome-machine-learning-engineering)
+
+A curated list of articles, papers and tools for managing the building and deploying of machine learning models, aka machine learning engineering.
